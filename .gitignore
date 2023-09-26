@@ -192,4 +192,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+#postgres folder that should not be added in git <JS>
+postgres_data
+
 # End of https://www.toptal.com/developers/gitignore/api/node,windows,linux,macos
