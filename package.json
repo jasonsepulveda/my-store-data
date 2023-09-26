@@ -4,26 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
+    "dev": "node --watch index.js",
     "start": "node index.js",
     "lint": "eslint"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jason Sepulveda <jasonsepulvedas@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.1",
-    "nodemon": "^2.0.12",
     "prettier": "^2.3.2"
   },
   "dependencies": {
-    "@faker-js/faker": "^7.6.0",
-    "@hapi/boom": "^9.1.4",
+    "@faker-js/faker": "^8.1.0",
+    "@hapi/boom": "^10.0.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "joi": "^17.4.2"
+    "joi": "^17.10.2"
   },
   "engines": {
     "node": "14.x"
