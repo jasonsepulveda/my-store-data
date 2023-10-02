@@ -9,13 +9,14 @@ const createCategorySchema = Joi.object({
   image: image.required()
 });
 
+const getCategorySchema = Joi.object({
+  id: id.required(),
+});
+
 const updateCategorySchema = Joi.object({
   name: name,
   image: image
 });
 
-const getCategorySchema = Joi.object({
-  id: id.required(),
-});
 
 module.exports = { createCategorySchema, updateCategorySchema, getCategorySchema }
